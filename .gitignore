@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Arduino build artifacts
+*.elf
+*.hex
+*.bin
+build/
+.arduino15/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+*.csv
+
+# Secrets — never commit these!
+secrets.py
+credentials.py
+wifi_config.h
